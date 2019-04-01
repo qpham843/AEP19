@@ -152,7 +152,7 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554150326568" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554150472197" />
     <property name="full.screen.before.presentation.mode" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../aep2019" />
     <property name="project.structure.last.edited" value="Libraries" />
@@ -183,7 +183,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ReverseStringTest">
+  <component name="RunManager" selected="JUnit.All in AEP19">
     <configuration default="true" type="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -192,6 +192,15 @@
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="All in AEP19" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AEP19" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TEST_OBJECT" value="package" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -223,23 +232,6 @@
       <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
       <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.ReverseStringTest" />
       <option name="METHOD_NAME" value="reverseOfABIsBA" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ReverseStringTest.reverseOfEmptyStringIsEmptyString" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AEP19" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="edu.berkeley.aep.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="edu.berkeley.aep" />
-      <option name="MAIN_CLASS_NAME" value="edu.berkeley.aep.ReverseStringTest" />
-      <option name="METHOD_NAME" value="reverseOfEmptyStringIsEmptyString" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
       <method v="2">
@@ -306,11 +298,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.All in AEP19" />
         <item itemvalue="JUnit.ReverseStringTest" />
         <item itemvalue="JUnit.ReverseStringTest.reverseOfTRAPIsPART" />
         <item itemvalue="JUnit.ReverseStringTest.reverseOfTARPIsPART" />
         <item itemvalue="JUnit.ReverseStringTest.reverseOfABIsBA" />
-        <item itemvalue="JUnit.ReverseStringTest.reverseOfEmptyStringIsEmptyString" />
       </list>
     </recent_temporary>
   </component>

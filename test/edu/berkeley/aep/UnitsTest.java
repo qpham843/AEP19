@@ -63,13 +63,6 @@ public class UnitsTest {
     }
 
     @Test
-    public void oneTeaSpoonIsNotOneInch() {
-        var oneTeaSpoon = new ArithmeticUnits(1d, UnitType.TEASPOON);
-        var oneInch = new ArithmeticUnits(1d, UnitType.INCHES);
-        assertNotEquals(oneTeaSpoon, oneInch);
-    }
-
-    @Test
     public void zeroFarenheitIsNotZeroCelcius() {
         var zeroFarenheit = new ScaledUnits(0d, UnitType.FAHRENHEIT);
         var zeroCelcius = new ScaledUnits(0d, UnitType.CELSIUS);

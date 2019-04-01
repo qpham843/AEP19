@@ -21,21 +21,4 @@ public class BestableComparerTest {
         var halfProbability = new Chance(0.5);
         assertEquals(certainProbability, new BestableComparer(halfProbability, certainProbability).getBest());
     }
-
-    @Test
-    public void bestOfZeroProbabilityandHalfProbabilityIsHalfProbability() {
-        var zeroProbability = new Chance(0d);
-        var halfProbability = new Chance(0.5);
-        assertEquals(zeroProbability, new BestableComparer(halfProbability, zeroProbability).getBest());
-    }
-
-    @Test
-    public void sortedBestToWorstofZeroProbabilityAndHalfProbabilityIsHalfAndZeroProbability() {
-        var zeroProbability = new Chance(0d);
-        var halfProbability = new Chance(0.5);
-        Bestable[] sorted = new Bestable[2];
-        sorted[0] = halfProbability;
-        sorted[1] = zeroProbability;
-        assertEquals(sorted, new BestableComparer(zeroProbability, halfProbability).getSorted());
-    }
 }
