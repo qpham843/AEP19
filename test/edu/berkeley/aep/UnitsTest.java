@@ -125,11 +125,4 @@ public class UnitsTest {
         var oneFoot = new ScaledUnits(1d, UnitType.FEET);
         assert(oneFoot.betterThan(tenInches));
     }
-
-    @Test(expected = IllegalArgumentException.class)
-    public void oneFootIsUncomparableToOneCelcius() {
-        var oneCelsius = new ScaledUnits(1d, UnitType.CELSIUS);
-        var oneFoot = new ScaledUnits(1d, UnitType.FEET);
-        assert(oneFoot.betterThan(oneCelsius));
-    }
 }
